@@ -3,39 +3,130 @@
 $hotels = [
 
     [
-        'name' => 'Hotel Belvedere',
-        'description' => 'Hotel Belvedere Descrizione',
+        'name' => 'Hotel Luca',
+        'description' => 'Hotel Luca Descrizione',
         'parking' => true,
         'vote' => 4,
         'distance_to_center' => 10.4
     ],
     [
-        'name' => 'Hotel Futuro',
-        'description' => 'Hotel Futuro Descrizione',
+        'name' => 'Hotel Pablo',
+        'description' => 'Hotel Pablo Descrizione',
         'parking' => true,
         'vote' => 2,
         'distance_to_center' => 2
     ],
     [
-        'name' => 'Hotel Rivamare',
-        'description' => 'Hotel Rivamare Descrizione',
+        'name' => 'Hotel Giuliano',
+        'description' => 'Hotel Giuliano Descrizione',
+        'parking' => true,
+        'vote' => 4,
+        'distance_to_center' => 2.4
+    ],
+    [
+        'name' => 'Hotel Mattia',
+        'description' => 'Hotel Mattia Descrizione',
         'parking' => false,
         'vote' => 1,
         'distance_to_center' => 1
     ],
     [
-        'name' => 'Hotel Bellavista',
-        'description' => 'Hotel Bellavista Descrizione',
+        'name' => 'Hotel Fabbio',
+        'description' => 'Hotel Fabbio Descrizione',
+        'parking' => true,
+        'vote' => 3,
+        'distance_to_center' => 50
+    ],
+    [
+        'name' => 'Hotel Robby',
+        'description' => 'Hotel Robby Descrizione',
         'parking' => false,
         'vote' => 5,
         'distance_to_center' => 5.5
     ],
     [
-        'name' => 'Hotel Milano',
-        'description' => 'Hotel Milano Descrizione',
+        'name' => 'Hotel Gambero',
+        'description' => 'Hotel Gambero Descrizione',
         'parking' => true,
         'vote' => 2,
+        'distance_to_center' => 15.4
+    ],
+    [
+        'name' => 'Hotel Minutella',
+        'description' => 'Hotel Minutella Descrizione',
+        'parking' => true,
+        'vote' => 4,
+        'distance_to_center' => 1.5
+    ],
+    [
+        'name' => 'Hotel Donato',
+        'description' => 'Hotel Donato Descrizione',
+        'parking' => false,
+        'vote' => 5,
+        'distance_to_center' => 21.6
+    ],
+    [
+        'name' => 'Hotel Bello',
+        'description' => 'Hotel Bello Descrizione',
+        'parking' => true,
+        'vote' => 4,
+        'distance_to_center' => 10.4
+    ],
+    [
+        'name' => 'Hotel Riccio',
+        'description' => 'Hotel Riccio Descrizione',
+        'parking' => true,
+        'vote' => 2,
+        'distance_to_center' => 2
+    ],
+    [
+        'name' => 'Hotel Zampa',
+        'description' => 'Hotel Zampa Descrizione',
+        'parking' => true,
+        'vote' => 4,
+        'distance_to_center' => 2.4
+    ],
+    [
+        'name' => 'Hotel Lookas',
+        'description' => 'Hotel Lookas Descrizione',
+        'parking' => false,
+        'vote' => 1,
+        'distance_to_center' => 1
+    ],
+    [
+        'name' => 'Hotel Minutella',
+        'description' => 'Hotel Minutella Descrizione',
+        'parking' => true,
+        'vote' => 3,
         'distance_to_center' => 50
+    ],
+    [
+        'name' => 'Hotel Nesta',
+        'description' => 'Hotel Nesta Descrizione',
+        'parking' => false,
+        'vote' => 5,
+        'distance_to_center' => 5.5
+    ],
+    [
+        'name' => 'Hotel Pacifico',
+        'description' => 'Hotel Pacifico Descrizione',
+        'parking' => true,
+        'vote' => 2,
+        'distance_to_center' => 15.4
+    ],
+    [
+        'name' => 'Hotel Luiggi',
+        'description' => 'Hotel Luiggi Descrizione',
+        'parking' => true,
+        'vote' => 4,
+        'distance_to_center' => 1.5
+    ],
+    [
+        'name' => 'Hotel Adam',
+        'description' => 'Hotel Adam Descrizione',
+        'parking' => false,
+        'vote' => 5,
+        'distance_to_center' => 21.6
     ],
 
 ];
