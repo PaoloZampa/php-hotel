@@ -46,7 +46,7 @@ $parking = $_GET['parking'];
 $filtered_hotels = [];
 
 foreach ($hotels as $hotel) {
-    if (($hotel === null || $hotel['vote'] >= $vote) && ($parking === null || $hotel['parking'] === true)) {
+    if (($vote === null || $hotel['vote'] >= $vote) && ($parking === null || $hotel['parking'] === true)) {
         $filtered_hotels[] = $hotel;
     }
 }
