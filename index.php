@@ -66,6 +66,24 @@ echo $hotel['name'] . " - " . $hotel['description'] . " - " . $hotel['parking'] 
 
     <div class="container my-5">
 
+        <form action="filter.php" method="get">
+
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="true" id="parking" name="parking">
+                <label class="form-check-label" for="parking">
+                    Parcheggio disponibile
+                </label>
+            </div>
+
+            <div class="mb-3">
+                <label for="vote" class="form-label">Voto minimo</label>
+                <input type="number" class="form-control" id="vote" name="vote" min="1" max="5">
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-3">Filtra</button>
+
+        </form>
+
         <div class="card card-body shadow">
             <table class="table table-hover">
                 <thead>
